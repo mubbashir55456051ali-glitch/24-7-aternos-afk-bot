@@ -28,18 +28,18 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": false,
+      "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "",
-        "",
-        ""
+        "helo",
+        "helo",
+        "helo"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 200,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 120000,
   },
   "movement": {
     "enabled": true,
